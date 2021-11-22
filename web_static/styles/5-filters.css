@@ -26,3 +26,32 @@
 .button:hover {
     opacity: 90%;
 }
+
+.locations {
+    display: inline-block;
+    height: 100%;
+    width: 25%;
+    border-right: 1px solid #DDDDDD;
+    /*margin: auto;*/
+    margin-right: 35px;
+}
+
+.amenities {
+    display: inline-block;
+    height: 100%;
+    width: 25%;
+    /*margin: auto;*/
+    margin-right: 200px;
+}
+
+h3 { /*Contains text States or Amenities*/ 
+    font-weight: 600;
+    margin-bottom: 5px;
+
+}
+
+h4 { /*Contains contains a subtitle*/
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 5px;
+}
