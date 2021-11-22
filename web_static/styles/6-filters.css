@@ -45,11 +45,23 @@
 }
 .popover {
     background-color: #FAFAFA;
-    width: 100%;
+    width: 98%;
     border: 1px solid #DDDDDD;
     border-radius: 4px;
     list-style-type: none;
-    margin-right: 35px;
+    display: none;
+    position: relative;
+    margin-top: -5.8px;
+    margin-left: -35px;
+    border-radius: 4px;
+}
+
+.locations:hover .popover {
+    display:block;
+}
+
+.amenities:hover .popover {
+    display:block;
 }
 
 h2 {
